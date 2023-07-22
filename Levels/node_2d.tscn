@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dtceswgrdi8r4"]
+
+[ext_resource type="PackedScene" uid="uid://b08l5y4edam5e" path="res://Characters/player_shamus.tscn" id="1_4y4n7"]
+
+[node name="GameLevel" type="Node2D"]
+
+[node name="PlayerShamus" parent="." instance=ExtResource("1_4y4n7")]
+position = Vector2(18, 12)
