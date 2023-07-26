@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1690157832
+::res://::1690311826
 icon.svg::CompressedTexture2D::8694765970580049870::1689904709::1689904726::1::::<><>::
 README.md::TextFile::-1::1689906663::0::1::::<><>::
 ::res://Ar t/::1689994316
 Pixilart Sprite Sheet (3).png::CompressedTexture2D::6990938982029939184::1678931342::1689994316::1::::<><>::
-::res://Characters/::1689996091
-player_shamus.gd::GDScript::-1::1689995868::0::1::::<>CharacterBody2D<>::
-player_shamus.tscn::PackedScene::4209989006810958368::1689996091::0::1::::<><>::res://Characters/player_shamus.gd<>uid://c6up0jwhw3tae::::res://Ar t/Pixilart Sprite Sheet (3).png
-::res://Levels/::1689996049
-node_2d.tscn::PackedScene::8497255013530686067::1689996049::0::1::::<><>::uid://b08l5y4edam5e::::res://Characters/player_shamus.tscn
+::res://Characters/::1690311826
+player_hamish.gd::GDScript::-1::1690311494::0::1::::<>CharacterBody2D<>::
+player_shamus.tscn::PackedScene::4209989006810958368::1690311826::0::1::::<><>::res://Characters/player_hamish.gd<>uid://c6up0jwhw3tae::::res://Ar t/Pixilart Sprite Sheet (3).png
+::res://Levels/::1690311547
+node_2d.tscn::PackedScene::8497255013530686067::1690311853::0::1::::<><>::uid://b08l5y4edam5e::::res://Characters/player_shamus.tscn

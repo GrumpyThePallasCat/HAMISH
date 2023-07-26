@@ -1,7 +1,9 @@
 extends CharacterBody2D
 
 #@export makes the variable available in the inspector. 
-@export var move_speed : float = 100
+@export var move_speed : float = 50
+@export var normalize : bool = false
+
 
 func _physics_process(delta):
 	var input_direction = Vector2(
@@ -11,7 +13,12 @@ func _physics_process(delta):
 	)
 	print(input_direction)
 	
-	velocity = input_direction * move_speed
+	if normalize:
+		velocity = input_direction.normalized() * move_speed
+	if !normalize: 
+		velocity = input_direction * move_speed
 	
 	move_and_slide()
+	
+	
 	
