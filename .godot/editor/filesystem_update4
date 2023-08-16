@@ -1,5 +1,3 @@
 res://Levels/node_2d.tscn
-res://Characters/player_shamus.tscn
-res://Characters/player_shamus.gd
 res://Characters/player_hamish.tscn
-res://Characters/player_hamish.gd
+res://Levels/Area2D.gd
